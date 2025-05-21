@@ -1,0 +1,45 @@
+.chatWindow {
+  padding: 20px;
+  background-color: #f9f9f9;
+  flex: 1;
+}
+
+.chatTitle {
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 8px;
+}
+
+.messagesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.myMessage {
+  align-self: flex-end;
+  text-align: right;
+  background-color: #d1e7dd;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 70%;
+}
+
+.otherMessage {
+  align-self: flex-start;
+  text-align: left;
+  background-color: #f8d7da;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 70%;
+}
+
+.messageText {
+  margin: 0 0 4px;
+}
+
+.messageTime {
+  font-size: 0.75rem;
+  color: #555;
+}

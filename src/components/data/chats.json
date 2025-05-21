@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Freeman",
+    "avatar": "https://cdn-icons-png.flaticon.com/512/194/194934.png"
+    
+  },
+  {
+    "id": 2,
+    "name": "Josefina",
+    "avatar": "https://cdn-icons-png.flaticon.com/512/194/194936.png"
+  },
+  {
+    "id": 3,
+    "name": "Velazquez",
+    "avatar": "https://cdn-icons-png.flaticon.com/512/194/194937.png"
+  },
+  {
+    "id": 4,
+    "name": "Piter",
+    "avatar": "https://cdn-icons-png.flaticon.com/512/194/194935.png"
+  }
+]

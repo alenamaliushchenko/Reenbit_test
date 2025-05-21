@@ -1,7 +1,7 @@
-import { FiSearch, FiUser } from "react-icons/fi";
+import { FiSearch, FiUser, FiPlus } from "react-icons/fi";
 import css from './ChatHeader.module.css';
 
-const ChatHeader = () => {
+const ChatHeader = ({ onNewChat }) => {
     return(
         <div className={css.header}>
             <div className={css.top}>
@@ -16,10 +16,12 @@ const ChatHeader = () => {
 
             <div className={css.searchChat}>
                 <div className={css.searchWrapper}>
-                    <input type="text" placeholder="Пошук чатів..." />
+                    <input type="text" placeholder="Search or start new chat" />
                         <FiSearch className={css.searchIcon} />
                 </div>
-                {/* <NewChat onClick={onNewChat} /> */}
+                <button className={css.addBtn} onClick={onNewChat}>
+                    <FiPlus />
+                </button>
             </div>
         </div>
     );
